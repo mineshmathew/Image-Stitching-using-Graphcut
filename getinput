@@ -1,0 +1,14 @@
+ Load some image:
+data = imread('fishy 01.jpg');
+
+% display the image:
+figure(88);
+clf;
+h = imagesc(data)
+axis image
+
+% Get a value from the screen:
+[x, y] = ginput(1)
+
+
+msgbox(['You want pixel: ' num2str(round([x,y]))]);
