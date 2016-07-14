@@ -1,3 +1,5 @@
+Uses A wrapper library for Boykov and Kolmogorov max-flow/min-cut ... (c) 2008 Michael Rubinstein, WDI R&D and IDC
+#################################
 1. Run the image_synthesis.m with the follwing arguments
 	first argument - your first image - image 1
 	second argument - image on which the first needs to be overlaid - image 2
